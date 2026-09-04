@@ -232,11 +232,13 @@ def build_graph_store(_bundle_marker: int) -> LegalGraphStore:
 
 
 @st.cache_resource(show_spinner="Preparing search engine...")
-def build_vector_store(_bundle_marker: int) -> LegalVectorStore:
+def build_vector_store(_bundle_marker: int, backend: str = "lightweight") -> LegalVectorStore:
     bundle = load_data_bundle()
-    store = LegalVectorStore()
+    store = LegalVectorStore(backend=backend)
     store.index_cases(bundle["cases"], reset=False)
     store.index_statutes(bundle["statutes"])
+    import gc
+    gc.collect()
     return store
 
 
@@ -392,7 +394,7 @@ def render_precedent_stepper(connecting_path: Optional[List[Dict[str, Any]]]) ->
 # --------------------------------------------------------------------------- #
 # Simple Sidebar
 # --------------------------------------------------------------------------- #
-def render_sidebar(bundle: Dict[str, Any]) -> tuple[RecommendationWeights, Optional[str]]:
+def render_sidebar(bundle: Dict[str, Any]) -> tuple[RecommendationWeights, Optional[str], str]:
     with st.sidebar:
         st.markdown("### ⚖️ **LegalGraph**")
         st.caption("Judicial Precedent & Statute Engine")
@@ -403,6 +405,8 @@ def render_sidebar(bundle: Dict[str, Any]) -> tuple[RecommendationWeights, Optio
             st.warning("⚠️ AI Mode: Offline (Mock LLM)")
         else:
             st.success("🟢 AI Assistant: **Groq Connected**")
+
+        st.info("⚡ Search: **Cloud-Optimized (Low-RAM)**")
 
         st.markdown(
             """
@@ -416,6 +420,14 @@ def render_sidebar(bundle: Dict[str, Any]) -> tuple[RecommendationWeights, Optio
 
         # Advanced Settings (Collapsed by default so users aren't overwhelmed)
         with st.expander("⚙️ Advanced Tuning (Optional)"):
+            engine_mode = st.selectbox(
+                "Memory Profile / Engine",
+                ["Lightweight (Low-RAM: ~20MB)", "ChromaDB + PyTorch (~700MB)"],
+                index=0,
+                help="Lightweight uses <20MB RAM, safe for Streamlit Cloud. ChromaDB uses ~700MB.",
+            )
+            backend = "lightweight" if "Lightweight" in engine_mode else "chroma"
+
             st.caption("Adjust how results are prioritized:")
             vec_w = st.slider("Text & Meaning Similarity", 0.0, 1.0, 0.50, 0.05,
                               help="How closely the case text matches your words")
@@ -437,7 +449,7 @@ def render_sidebar(bundle: Dict[str, Any]) -> tuple[RecommendationWeights, Optio
             user_choice = None if selected_user == "(no personalization)" else selected_user
 
         weights = RecommendationWeights(collaborative=cf_w, vector=vec_w, graph_centrality=gc_w)
-        return weights, user_choice
+        return weights, user_choice, backend
 
 
 # --------------------------------------------------------------------------- #
@@ -445,10 +457,10 @@ def render_sidebar(bundle: Dict[str, Any]) -> tuple[RecommendationWeights, Optio
 # --------------------------------------------------------------------------- #
 def main() -> None:
     bundle = load_data_bundle()
-    weights, selected_user = render_sidebar(bundle)
+    weights, selected_user, backend = render_sidebar(bundle)
 
     graph_store = build_graph_store(len(bundle["cases"]))
-    vector_store = build_vector_store(len(bundle["cases"]))
+    vector_store = build_vector_store(len(bundle["cases"]), backend=backend)
     llm_client = get_llm()
     rag_engine = GraphRAGEngine(graph_store, vector_store, llm_client=llm_client)
 
