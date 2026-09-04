@@ -1,0 +1,52 @@
+[
+  {
+    "concept_id": "C001",
+    "name": "Duty of Care",
+    "description": "Legal obligation to avoid acts/omissions causing foreseeable harm to others."
+  },
+  {
+    "concept_id": "C002",
+    "name": "Negligence",
+    "description": "Failure to exercise reasonable care, resulting in damage to another party."
+  },
+  {
+    "concept_id": "C003",
+    "name": "Breach of Contract",
+    "description": "Failure to perform any duty or obligation specified in a binding contract."
+  },
+  {
+    "concept_id": "C004",
+    "name": "Freedom of Speech",
+    "description": "Constitutional protection against government restriction of expression."
+  },
+  {
+    "concept_id": "C005",
+    "name": "Due Process",
+    "description": "Requirement that legal proceedings follow established rules and principles."
+  },
+  {
+    "concept_id": "C006",
+    "name": "Vicarious Liability",
+    "description": "Holding one party liable for the wrongful acts of another (e.g. employer/employee)."
+  },
+  {
+    "concept_id": "C007",
+    "name": "Proximate Cause",
+    "description": "The legal cause of an injury which, in natural sequence, produced the harm."
+  },
+  {
+    "concept_id": "C008",
+    "name": "Doctrine of Precedent",
+    "description": "Principle (stare decisis) that courts follow rulings established in prior similar cases."
+  },
+  {
+    "concept_id": "C009",
+    "name": "Intellectual Property Rights",
+    "description": "Legal rights granted for creations of the mind (patents, copyrights, trademarks)."
+  },
+  {
+    "concept_id": "C010",
+    "name": "Right to Privacy",
+    "description": "Legal protection of an individual's personal information and autonomy."
+  }
+]

@@ -1,0 +1,266 @@
+[
+  {
+    "case_id": "CL001",
+    "title": "Whitfield v. Meridian Robotics Inc. (2000)",
+    "court": "High Court of Delhi",
+    "year": 2004,
+    "summary": "An employee sued a robotics manufacturer alleging Due Process after an assembly-line malfunction caused injury; the court applied Constitution of India - Art. 21 to determine manufacturer liability for foreseeable defects.",
+    "concepts": [
+      "C005",
+      "C004"
+    ]
+  },
+  {
+    "case_id": "CL002",
+    "title": "Whitfield v. Meridian Robotics Inc. (2021)",
+    "court": "Supreme Court",
+    "year": 2001,
+    "summary": "An employee sued a robotics manufacturer alleging Intellectual Property Rights after an assembly-line malfunction caused injury; the court applied Indian Penal Code - Sec. 304A to determine manufacturer liability for foreseeable defects.",
+    "concepts": [
+      "C009",
+      "C007"
+    ]
+  },
+  {
+    "case_id": "CL003",
+    "title": "Whitfield v. Meridian Robotics Inc. (2006)",
+    "court": "High Court of Delhi",
+    "year": 2006,
+    "summary": "An employee sued a robotics manufacturer alleging Freedom of Speech after an assembly-line malfunction caused injury; the court applied Indian Contract Act, 1872 - Sec. 73 to determine manufacturer liability for foreseeable defects.",
+    "concepts": [
+      "C004",
+      "C010"
+    ]
+  },
+  {
+    "case_id": "CL004",
+    "title": "Kulkarni v. National Broadcasting Trust (2013)",
+    "court": "Court of Appeals - 7th Circuit",
+    "year": 2025,
+    "summary": "A broadcaster was accused of defamatory reporting, raising Freedom of Speech concerns balanced against US Fair Use Doctrine - 17 U.S.C. Sec. 107 protections for press freedom.",
+    "concepts": [
+      "C004",
+      "C006"
+    ]
+  },
+  {
+    "case_id": "CL005",
+    "title": "Sharma v. State Transport Corp. (2024)",
+    "court": "Court of Appeals - 9th Circuit",
+    "year": 2008,
+    "summary": "A public bus operator was found liable for Breach of Contract after a passenger was injured due to a delayed brake response; the court examined whether the standard of care owed by common carriers was breached under Information Technology Act, 2000 - Sec. 43A.",
+    "concepts": [
+      "C003",
+      "C007"
+    ]
+  },
+  {
+    "case_id": "CL006",
+    "title": "Okafor v. Bright Horizon Media (2024)",
+    "court": "Supreme Court",
+    "year": 2012,
+    "summary": "A media company was sued for unauthorized reproduction of copyrighted material, raising questions of Vicarious Liability under Indian Penal Code - Sec. 304A and permissible fair use.",
+    "concepts": [
+      "C006",
+      "C002"
+    ]
+  },
+  {
+    "case_id": "CL007",
+    "title": "Reid v. Hartwell Data Systems (2011)",
+    "court": "Court of Appeals - 2nd Circuit",
+    "year": 2023,
+    "summary": "A data breach exposed customer records; plaintiffs alleged Right to Privacy under US Code Title 17 - Copyright Act Sec. 106, arguing the company failed to implement reasonable security safeguards.",
+    "concepts": [
+      "C010",
+      "C001"
+    ]
+  },
+  {
+    "case_id": "CL008",
+    "title": "Kulkarni v. National Broadcasting Trust (2003)",
+    "court": "Court of Appeals - 7th Circuit",
+    "year": 2009,
+    "summary": "A broadcaster was accused of defamatory reporting, raising Proximate Cause concerns balanced against Indian Penal Code - Sec. 304A protections for press freedom.",
+    "concepts": [
+      "C007",
+      "C010"
+    ]
+  },
+  {
+    "case_id": "CL009",
+    "title": "Whitmore v. Silverline Pharmaceuticals (2011)",
+    "court": "High Court of Delhi",
+    "year": 2001,
+    "summary": "Plaintiffs alleged the company breached Right to Privacy in drug trial disclosures, examined under Constitution of India - Art. 21 for regulatory compliance.",
+    "concepts": [
+      "C010",
+      "C002"
+    ]
+  },
+  {
+    "case_id": "CL010",
+    "title": "Okafor v. Bright Horizon Media (2024)",
+    "court": "Court of Appeals - 2nd Circuit",
+    "year": 2003,
+    "summary": "A media company was sued for unauthorized reproduction of copyrighted material, raising questions of Due Process under Indian Penal Code - Sec. 304A and permissible fair use.",
+    "concepts": [
+      "C005",
+      "C004"
+    ]
+  },
+  {
+    "case_id": "CL011",
+    "title": "Deshpande v. Continental Insurance Ltd. (2014)",
+    "court": "Court of Appeals - 9th Circuit",
+    "year": 2011,
+    "summary": "An insurer denied a claim citing policy exclusions; the court evaluated Vicarious Liability in the context of Constitution of India - Art. 19(1)(a) to determine enforceability of the exclusion.",
+    "concepts": [
+      "C006",
+      "C007"
+    ]
+  },
+  {
+    "case_id": "CL012",
+    "title": "Deshpande v. Continental Insurance Ltd. (2022)",
+    "court": "Court of Appeals - 9th Circuit",
+    "year": 2023,
+    "summary": "An insurer denied a claim citing policy exclusions; the court evaluated Negligence in the context of Constitution of India - Art. 19(1)(a) to determine enforceability of the exclusion.",
+    "concepts": [
+      "C002",
+      "C010"
+    ]
+  },
+  {
+    "case_id": "CL013",
+    "title": "Nair v. Union of India (2014)",
+    "court": "High Court of Delhi",
+    "year": 2007,
+    "summary": "Petitioner challenged a state order restricting public assembly, invoking Proximate Cause under US Code Title 17 - Copyright Act Sec. 106; the court balanced individual rights against public order concerns.",
+    "concepts": [
+      "C007",
+      "C010"
+    ]
+  },
+  {
+    "case_id": "CL014",
+    "title": "Reid v. Hartwell Data Systems (2024)",
+    "court": "High Court of Bombay",
+    "year": 2025,
+    "summary": "A data breach exposed customer records; plaintiffs alleged Duty of Care under Constitution of India - Art. 21, arguing the company failed to implement reasonable security safeguards.",
+    "concepts": [
+      "C001",
+      "C002"
+    ]
+  },
+  {
+    "case_id": "CL015",
+    "title": "Vasquez v. Cedarbrook School District (2008)",
+    "court": "High Court of Delhi",
+    "year": 2006,
+    "summary": "A student's family alleged Negligence after a school failed to supervise a known hazard; the court applied Constitution of India - Art. 21 to assess institutional liability.",
+    "concepts": [
+      "C002",
+      "C007"
+    ]
+  },
+  {
+    "case_id": "CL016",
+    "title": "Iyer v. Metro Housing Board (2012)",
+    "court": "Court of Appeals - 9th Circuit",
+    "year": 2004,
+    "summary": "Tenants alleged Doctrine of Precedent against a housing authority for unsafe premises; the court considered Constitution of India - Art. 19(1)(a) in evaluating landlord obligations.",
+    "concepts": [
+      "C008",
+      "C005"
+    ]
+  },
+  {
+    "case_id": "CL017",
+    "title": "Kulkarni v. National Broadcasting Trust (2017)",
+    "court": "Court of Appeals - 9th Circuit",
+    "year": 2011,
+    "summary": "A broadcaster was accused of defamatory reporting, raising Due Process concerns balanced against Information Technology Act, 2000 - Sec. 43A protections for press freedom.",
+    "concepts": [
+      "C005",
+      "C008"
+    ]
+  },
+  {
+    "case_id": "CL018",
+    "title": "Nair v. Union of India (2016)",
+    "court": "Court of Appeals - 9th Circuit",
+    "year": 2003,
+    "summary": "Petitioner challenged a state order restricting public assembly, invoking Doctrine of Precedent under Indian Penal Code - Sec. 304A; the court balanced individual rights against public order concerns.",
+    "concepts": [
+      "C008",
+      "C001"
+    ]
+  },
+  {
+    "case_id": "CL019",
+    "title": "Nair v. Union of India (2025)",
+    "court": "District Court - S.D.N.Y.",
+    "year": 2012,
+    "summary": "Petitioner challenged a state order restricting public assembly, invoking Proximate Cause under Indian Penal Code - Sec. 304A; the court balanced individual rights against public order concerns.",
+    "concepts": [
+      "C007",
+      "C008"
+    ]
+  },
+  {
+    "case_id": "CL020",
+    "title": "Iyer v. Metro Housing Board (2016)",
+    "court": "District Court - S.D.N.Y.",
+    "year": 2021,
+    "summary": "Tenants alleged Due Process against a housing authority for unsafe premises; the court considered Indian Contract Act, 1872 - Sec. 73 in evaluating landlord obligations.",
+    "concepts": [
+      "C005",
+      "C002"
+    ]
+  },
+  {
+    "case_id": "CL021",
+    "title": "Deshpande v. Continental Insurance Ltd. (2024)",
+    "court": "Court of Appeals - 9th Circuit",
+    "year": 2013,
+    "summary": "An insurer denied a claim citing policy exclusions; the court evaluated Vicarious Liability in the context of Indian Penal Code - Sec. 304A to determine enforceability of the exclusion.",
+    "concepts": [
+      "C006",
+      "C005"
+    ]
+  },
+  {
+    "case_id": "CL022",
+    "title": "Iyer v. Metro Housing Board (2000)",
+    "court": "Court of Appeals - 7th Circuit",
+    "year": 2003,
+    "summary": "Tenants alleged Due Process against a housing authority for unsafe premises; the court considered Constitution of India - Art. 19(1)(a) in evaluating landlord obligations.",
+    "concepts": [
+      "C005",
+      "C010"
+    ]
+  },
+  {
+    "case_id": "CL023",
+    "title": "Deshpande v. Continental Insurance Ltd. (2020)",
+    "court": "Court of Appeals - 7th Circuit",
+    "year": 2011,
+    "summary": "An insurer denied a claim citing policy exclusions; the court evaluated Intellectual Property Rights in the context of Constitution of India - Art. 21 to determine enforceability of the exclusion.",
+    "concepts": [
+      "C009",
+      "C003"
+    ]
+  },
+  {
+    "case_id": "CL024",
+    "title": "Nair v. Union of India (2017)",
+    "court": "Supreme Court",
+    "year": 2015,
+    "summary": "Petitioner challenged a state order restricting public assembly, invoking Intellectual Property Rights under Indian Contract Act, 1872 - Sec. 73; the court balanced individual rights against public order concerns.",
+    "concepts": [
+      "C009",
+      "C006"
+    ]
+  }
+]

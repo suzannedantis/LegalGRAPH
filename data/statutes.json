@@ -1,0 +1,50 @@
+[
+  {
+    "statute_id": "S001",
+    "title": "Indian Contract Act, 1872 - Sec. 73",
+    "code_section": "ICA-1872-S73",
+    "summary": "Compensation for loss or damage caused by breach of contract."
+  },
+  {
+    "statute_id": "S002",
+    "title": "Indian Penal Code - Sec. 304A",
+    "code_section": "IPC-S304A",
+    "summary": "Causing death by negligence, not amounting to culpable homicide."
+  },
+  {
+    "statute_id": "S003",
+    "title": "Constitution of India - Art. 19(1)(a)",
+    "code_section": "COI-ART19-1A",
+    "summary": "Guarantees freedom of speech and expression to all citizens."
+  },
+  {
+    "statute_id": "S004",
+    "title": "Constitution of India - Art. 21",
+    "code_section": "COI-ART21",
+    "summary": "Protection of life and personal liberty; no deprivation except by procedure established by law."
+  },
+  {
+    "statute_id": "S005",
+    "title": "US Code Title 17 - Copyright Act Sec. 106",
+    "code_section": "US17-S106",
+    "summary": "Exclusive rights of copyright owners over reproduction and distribution."
+  },
+  {
+    "statute_id": "S006",
+    "title": "US Restatement (Second) of Torts Sec. 282",
+    "code_section": "REST2D-TORTS-282",
+    "summary": "Defines negligence as conduct falling below the standard established for protection against harm."
+  },
+  {
+    "statute_id": "S007",
+    "title": "Information Technology Act, 2000 - Sec. 43A",
+    "code_section": "IT-ACT-S43A",
+    "summary": "Compensation for failure to protect sensitive personal data."
+  },
+  {
+    "statute_id": "S008",
+    "title": "US Fair Use Doctrine - 17 U.S.C. Sec. 107",
+    "code_section": "US17-S107",
+    "summary": "Limits exclusive copyright rights for purposes such as criticism, comment, and research."
+  }
+]

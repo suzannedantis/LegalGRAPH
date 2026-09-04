@@ -1,0 +1,42 @@
+[
+  {
+    "judge_id": "J001",
+    "name": "Hon. Ramesh Kulkarni",
+    "court": "Supreme Court"
+  },
+  {
+    "judge_id": "J002",
+    "name": "Hon. Sarah Whitmore",
+    "court": "Court of Appeals - 9th Circuit"
+  },
+  {
+    "judge_id": "J003",
+    "name": "Hon. Anil Deshpande",
+    "court": "High Court of Bombay"
+  },
+  {
+    "judge_id": "J004",
+    "name": "Hon. Elena Vasquez",
+    "court": "Court of Appeals - 2nd Circuit"
+  },
+  {
+    "judge_id": "J005",
+    "name": "Hon. Priya Nair",
+    "court": "Supreme Court"
+  },
+  {
+    "judge_id": "J006",
+    "name": "Hon. Thomas Reid",
+    "court": "District Court - S.D.N.Y."
+  },
+  {
+    "judge_id": "J007",
+    "name": "Hon. Meera Iyer",
+    "court": "High Court of Delhi"
+  },
+  {
+    "judge_id": "J008",
+    "name": "Hon. David Okafor",
+    "court": "Court of Appeals - 7th Circuit"
+  }
+]
