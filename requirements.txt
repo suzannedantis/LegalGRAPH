@@ -1,0 +1,9 @@
+streamlit>=1.32,<2
+networkx>=3.2,<4
+pandas>=2.0,<3
+numpy>=1.26,<2
+chromadb>=0.5,<0.6
+sentence-transformers>=2.7,<3
+pyvis>=0.3.2,<0.4
+groq>=0.9,<1
+google-genai>=0.3,<1
